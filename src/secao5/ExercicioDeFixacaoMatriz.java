@@ -32,7 +32,9 @@ public class ExercicioDeFixacaoMatriz {
 			for(int j = 0; j < matriz[i].length; j++) {
 				
 				if (matriz[i][j] == reference) {
-					System.out.printf("Position " + i + "," + j + "%n");
+					int x = i + 1;
+					int y = j + 1;
+					System.out.printf("Position " + x + "," + y + "%n");
 					if(j > 0) {
 						System.out.printf("Left: %d%n", matriz[i][j-1]);
 					}
